@@ -19,17 +19,14 @@ border: 1px solid black
 }
 
               /*Main Content*/
-body {
-
-
-}
 .main {
   color: mediumvioletred;
   position: relative;
   top: 100px;
   display: inline-flex;
+  width: 1170px;
   border: 1px solid black
-
+  
 }
                 /*Column1*/
 .column1 {
@@ -39,15 +36,47 @@ body {
   border: 3px solid black
 
 }
+.storymain {
+  display: inline-flex;
+}
 .mother {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  font-family: Georgia;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  bottom: 300px;
+
+}
+.monument {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  position: relative;
+  bottom: 145px;
+}
+.story2 {
+  width: 299;
+  height: 300;
+
+}
+.earth {
+
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  bottom: 100px;
+
   border: 1px solid black
 }
 .orca {
   border: 2px solid black
+
 }
-.earth {
-  border: 1px solid black
-}
+
 .burger {
   border: 2px solid black
 }
