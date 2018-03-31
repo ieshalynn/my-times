@@ -13,6 +13,7 @@ h1 {
   position: fixed;
   top: 0px;
   align-items: center;
+  background-color: white;
 }
 .logo, h1 {
 border: 1px solid black
@@ -20,13 +21,16 @@ border: 1px solid black
 
               /*Main Content*/
 .main {
-  color: mediumvioletred;
   position: relative;
   top: 100px;
   display: inline-flex;
   width: 1170px;
   border: 1px solid black
-
+}
+.monument, .orca, .burger, .fbi, .brooklyn, .bites {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
                 /*Column1*/
 .column1 {
@@ -57,21 +61,31 @@ border: 1px solid black
   bottom: 145px;
 }
 .story2 {
-  display: inline-flex;
-  width: 299;
-  height: 300;
+  border: 2px solid green
+}
+.story3 {
+  position: relative;
+  bottom:319px;
+  left: 318px;
+
+}
+.story3, .story2 {
+  display: flex;
+  flex-direction: row;
+  width: 315px;
 
 }
 .earth {
-  background-image:  url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   position: relative;
-  bottom: 300px;
-
+  bottom: 630px;
   border: 1px solid black
+  width: 300px;
+  margin: 0 auto;
 }
 .orca {
   border: 2px solid black
@@ -82,7 +96,18 @@ border: 1px solid black
   border: 2px solid black
 }
 .camera {
-  display: inline-flex;
+  border: 2px solid green
+
+}
+.camera2 {
+  position: relative;
+  bottom: 320px;
+  left: 320px;
+}
+.camera2, .camera {
+  display: flex;
+  flex-direction: row;
+  width: 315px;
 }
 .research {
   border: 1px solid black;
@@ -91,7 +116,9 @@ border: 1px solid black
   font-size: 30px;
   color: white;
   position: relative;
-  bottom: 300px;
+  bottom: 630px;
+  width: 500px;
+  margin: 0 auto;
 }
                 /*Column2*/
 .column2 {
@@ -108,6 +135,8 @@ border: 1px solid black
   color: white;
   position: relative;
   bottom: 300px;
+  width: 300px;
+  margin: 0 auto;
 }
 .catlove{
   display: inline-flex;
@@ -124,6 +153,8 @@ border: 1px solid black
   width: 240px;
   flex-direction: column;
   border: 1px solid black
+  position: relative;
+  left: 50px;
 }
 .cookie {
   border: 1px solid black
